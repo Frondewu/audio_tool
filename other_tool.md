@@ -1,5 +1,8 @@
 ## excel读写
 ```
+from xlutils.copy import copy
+import xlrd
+import xlwt
 # 写
 rb = xlrd.open_workbook(excel_path)
 wb = copy(rb)
