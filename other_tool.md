@@ -19,3 +19,12 @@ for rs in rb.sheets():
         for j in range(cols):
             print rs.cell(i,j).value
 ```
+## plt画图
+```
+import matplotlib.pyplot as plt
+plt.switch_backend('agg')
+plt.plot(x, y, 'o') # 画点
+plt.plot(x, y) # 画线
+plt.gcf().savefig('kmeans.png')
+plt.show()
+```
