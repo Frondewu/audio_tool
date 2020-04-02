@@ -29,6 +29,7 @@ plt.switch_backend('agg')
 fig = plt.figure(0) # 新图 0
 plt.plot(x, y, 'o') # 画点
 plt.plot(x, y) # 画线
+plt.legend()
 plt.savefig('1.png')
 plt.close(0)
 ```
