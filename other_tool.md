@@ -21,6 +21,7 @@ for rs in rb.sheets():
 ```
 ## plt画图
 https://matplotlib.org/api/pyplot_summary.html
+plt颜色板 https://www.cnblogs.com/qianblue/p/10783261.html
 ```
 import matplotlib.pyplot as plt
 plt.switch_backend('agg')
