@@ -40,3 +40,11 @@ import sys
 sys.path.append('../')
 from fatherdirname import xxx
 ```
+##Docker
+```sh
+docker pull $address
+docker run -it -d -rm -v $docker_dst:$dst -u root --name $name $container
+docker exec -u root -it $name bash
+docker commit container_id new_container # 保存镜像, 在保存之前要把image run起来，container_id在image命令行的前面name@id
+```
+
